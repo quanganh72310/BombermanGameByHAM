@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>uet.oop.bomberman.BombermanGame</OriginalElement>
+  <nodes>
+    <node x="816.5595238095239" y="158.0">uet.oop.bomberman.entities.StillEntity.Grass</node>
+    <node x="0.0" y="311.0">uet.oop.bomberman.BombermanGame</node>
+    <node x="1139.5" y="237.0">uet.oop.bomberman.entities.StillEntity.item.FlameItem</node>
+    <node x="436.5595238095238" y="158.0">uet.oop.bomberman.entities.MovingEntity.bomb.FlameSegment</node>
+    <node x="304.5" y="79.0">uet.oop.bomberman.entities.MovingEntity.MovingEntity</node>
+    <node x="1021.5595238095239" y="158.0">uet.oop.bomberman.entities.StillEntity.item.Item</node>
+    <node x="0.0" y="237.0">uet.oop.bomberman.entities.MovingEntity.enemy.Doll</node>
+    <node x="96.0" y="237.0">uet.oop.bomberman.entities.MovingEntity.enemy.Oneal</node>
+    <node x="206.5595238095238" y="158.0">uet.oop.bomberman.entities.MovingEntity.bomber.Bomber</node>
+    <node x="1001.5" y="237.0">uet.oop.bomberman.entities.StillEntity.item.BombItem</node>
+    <node x="327.5595238095238" y="158.0">uet.oop.bomberman.entities.MovingEntity.bomb.Bomb</node>
+    <node x="206.0595238095238" y="237.0">uet.oop.bomberman.entities.MovingEntity.enemy.Balloom</node>
+    <node x="921.5595238095239" y="158.0">uet.oop.bomberman.entities.StillEntity.Brick</node>
+    <node x="93.55952380952374" y="158.0">uet.oop.bomberman.entities.MovingEntity.enemy.Enemy</node>
+    <node x="907.0" y="79.0">uet.oop.bomberman.entities.StillEntity.StillEntity</node>
+    <node x="1120.5595238095239" y="158.0">uet.oop.bomberman.entities.StillEntity.Wall</node>
+    <node x="852.0595238095239" y="237.0">uet.oop.bomberman.entities.StillEntity.item.SpeedItem</node>
+    <node x="709.5595238095239" y="158.0">uet.oop.bomberman.entities.StillEntity.Portal</node>
+    <node x="601.5595238095239" y="158.0">uet.oop.bomberman.entities.MovingEntity.bomb.Flame</node>
+    <node x="623.25" y="0.0">uet.oop.bomberman.entities.Entity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="uet.oop.bomberman.entities.StillEntity.StillEntity" target="uet.oop.bomberman.entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="961.0" y="54.0" />
+      <point x="666.25" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.StillEntity.item.SpeedItem" target="uet.oop.bomberman.entities.StillEntity.item.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="911.5595238095239" y="212.0" />
+      <point x="1061.0595238095239" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.MovingEntity" target="uet.oop.bomberman.entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="371.5" y="54.0" />
+      <point x="666.25" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.StillEntity.item.Item" target="uet.oop.bomberman.entities.StillEntity.StillEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="1061.0595238095239" y="133.0" />
+      <point x="961.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.StillEntity.item.BombItem" target="uet.oop.bomberman.entities.StillEntity.item.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.enemy.Balloom" target="uet.oop.bomberman.entities.MovingEntity.enemy.Enemy" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="257.0595238095238" y="212.0" />
+      <point x="140.05952380952374" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.bomber.Bomber" target="uet.oop.bomberman.entities.MovingEntity.MovingEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="257.0595238095238" y="133.0" />
+      <point x="371.5" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.StillEntity.Portal" target="uet.oop.bomberman.entities.StillEntity.StillEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="753.0595238095239" y="133.0" />
+      <point x="961.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.StillEntity.Brick" target="uet.oop.bomberman.entities.StillEntity.StillEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.enemy.Doll" target="uet.oop.bomberman.entities.MovingEntity.enemy.Enemy" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="38.0" y="212.0" />
+      <point x="140.05952380952374" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.enemy.Enemy" target="uet.oop.bomberman.entities.MovingEntity.MovingEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="140.05952380952374" y="133.0" />
+      <point x="371.5" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.bomb.Bomb" target="uet.oop.bomberman.entities.MovingEntity.MovingEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.StillEntity.Wall" target="uet.oop.bomberman.entities.StillEntity.StillEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="1159.5595238095239" y="133.0" />
+      <point x="961.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.StillEntity.Grass" target="uet.oop.bomberman.entities.StillEntity.StillEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="859.0595238095239" y="133.0" />
+      <point x="961.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.enemy.Oneal" target="uet.oop.bomberman.entities.MovingEntity.enemy.Enemy" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.bomb.FlameSegment" target="uet.oop.bomberman.entities.MovingEntity.MovingEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="509.0595238095238" y="133.0" />
+      <point x="371.5" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.MovingEntity.bomb.Flame" target="uet.oop.bomberman.entities.MovingEntity.MovingEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="645.5595238095239" y="133.0" />
+      <point x="371.5" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="uet.oop.bomberman.entities.StillEntity.item.FlameItem" target="uet.oop.bomberman.entities.StillEntity.item.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="1198.0" y="212.0" />
+      <point x="1061.0595238095239" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8684416601409554" showDependencies="false" x="629.0" y="170.0" />
+  <SelectedNodes>
+    <node>uet.oop.bomberman.entities.MovingEntity.enemy.Balloom</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
